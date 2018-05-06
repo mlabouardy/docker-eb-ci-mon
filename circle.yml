@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
 
-      - setup_docker_remote
+      - setup_remote_docker
 
       - run:
           name: Test
