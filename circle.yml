@@ -25,7 +25,7 @@ jobs:
             docker login -u$DOCKERHUB_LOGIN -p$DOCKERHUB_PASSWORD
             docker tag mlabouardy/avengers:latest mlabouardy/avengers:${CIRCLE_SHA1}
             docker push mlabouardy/avengers:latest
-            docker push mlabouardy/avengers:${CIRCLE_SHA1} .
+            docker push mlabouardy/avengers:${CIRCLE_SHA1}
       
       - run:
           name: Deploy
