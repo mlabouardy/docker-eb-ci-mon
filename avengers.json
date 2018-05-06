@@ -1,0 +1,62 @@
+[
+    {
+       "character":"Tony Stark / Iron Man",
+       "name":"Robert Downey Jr."
+    },
+    {
+       "character":"Steve Rogers / Captain America}",
+       "name":"Chris Evans"
+    },
+    {
+       "character":"Bruce Banner / The Hulk",
+       "name":"Mark Ruffalo"
+    },
+    {
+       "character":"Thor",
+       "name":"Chris Hemsworth"
+    },
+    {
+       "character":"Natasha Romanoff / Black Widow",
+       "name":"Scarlett Johansson"
+    },
+    {
+       "character":"Clint Barton / Hawkeye",
+       "name":"Jeremy Renner"
+    },
+    {
+       "character":"Loki",
+       "name":"Tom Hiddleston"
+    },
+    {
+       "character":"Agent Phil Coulson",
+       "name":"Clark Gregg"
+    },
+    {
+       "character":"Agent Maria Hill",
+       "name":"Cobie Smulders"
+    },
+    {
+       "character":"Selvig",
+       "name":"Stellan Skarsgard"
+    },
+    {
+       "character":"Nick Fury",
+       "name":"Samuel L. Jackson"
+    },
+    {
+       "character":"Pepper Potts",
+       "name":"Gwyneth Paltrow"
+    },
+    {
+       "character":"Jarvis (voice)",
+       "name":"Paul Bettany"
+    },
+    {
+       "character":"The Other",
+       "name":"Alexis Denisof"
+    },
+    {
+       "character":"NASA Scientist",
+       "name":"Tina Benko"
+    }
+ ]
