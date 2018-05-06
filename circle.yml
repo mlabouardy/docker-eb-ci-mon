@@ -12,6 +12,12 @@ jobs:
       - setup_remote_docker
 
       - run:
+          name: Prepare Environment
+          command: |
+            apt-get update
+            apt-get install -y awscli
+
+      - run:
           name: Test
           command: go test
       
@@ -30,4 +36,8 @@ jobs:
       - run:
           name: Deploy
           command: |
-            deploy to eb
+            zip deployment-${CIRCLE_SHA1}.zip *
+            aws elasticbeanstalk create-application-version --application-name avengers \
+                --version-label ${CIRCLE_SHA1} --source-bundle S3Bucket="avengers-docker-eb",S3Key="deployment-${CIRCLE_SHA1}.zip" --region eu-west-3
+            aws elasticbeanstalk update-environment --application-name avengers \
+                --environment-name staging --version-label ${CIRCLE_SHA1} --region eu-west-3

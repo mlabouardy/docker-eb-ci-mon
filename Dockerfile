@@ -9,4 +9,5 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 COPY --from=builder /go/src/github.com/mlabouardy/docker-eb-ci-mon/app .
 COPY avengers.json .
+EXPOSE 3000
 CMD ["./app"] 
