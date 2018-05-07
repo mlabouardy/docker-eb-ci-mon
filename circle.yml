@@ -12,12 +12,6 @@ jobs:
       - setup_remote_docker
 
       - run:
-          name: Prepare Environment
-          command: |
-            apt-get update -y
-            apt-get install -y awscli
-
-      - run:
           name: Test
           command: go test
       
