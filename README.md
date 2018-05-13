@@ -1,7 +1,9 @@
-support unofficial languages with docker
-how to do ci/cd
-deploy in docker
-monitor containers
-how to use private registry with EB
-how to restart env with lamb
-alarms
+# Elastic Beanstalk Tips
+
+* Deployment using Docker
+* Circle CI integration
+* Monitoring
+* Logging
+* Docker Private registry integration
+* CloudWatch alarms
+* Call-on-action with AWS Lambda
