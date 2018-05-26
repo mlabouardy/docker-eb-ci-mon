@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "mlabouardy/avengers",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "3000"
+      }
+    ]
+  }
